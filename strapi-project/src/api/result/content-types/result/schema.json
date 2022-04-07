@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "results",
+  "info": {
+    "singularName": "result",
+    "pluralName": "results",
+    "displayName": "Result",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ci_biologi": {
+      "type": "float"
+    },
+    "pr_biologi": {
+      "type": "integer"
+    },
+    "ci_fisika": {
+      "type": "float"
+    },
+    "pr_fisika": {
+      "type": "integer"
+    },
+    "ci_kimia": {
+      "type": "float"
+    },
+    "pr_kimia": {
+      "type": "integer"
+    },
+    "ci_ilkom": {
+      "type": "float"
+    },
+    "pr_ilkom": {
+      "type": "integer"
+    },
+    "ci_matematika": {
+      "type": "float"
+    },
+    "pr_matematika": {
+      "type": "integer"
+    },
+    "nilai_siswa": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::nilai-siswa.nilai-siswa",
+      "inversedBy": "result"
+    }
+  }
+}

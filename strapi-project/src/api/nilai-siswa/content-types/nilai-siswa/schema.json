@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "nilai_siswas",
+  "info": {
+    "singularName": "nilai-siswa",
+    "pluralName": "nilai-siswas",
+    "displayName": "Nilai Siswa",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "biologi": {
+      "type": "float"
+    },
+    "fisika": {
+      "type": "float"
+    },
+    "kimia": {
+      "type": "float"
+    },
+    "matematika": {
+      "type": "float"
+    },
+    "indonesia": {
+      "type": "float"
+    },
+    "inggris": {
+      "type": "float"
+    },
+    "atribut": {
+      "type": "string"
+    },
+    "result": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::result.result",
+      "inversedBy": "nilai_siswa"
+    }
+  }
+}

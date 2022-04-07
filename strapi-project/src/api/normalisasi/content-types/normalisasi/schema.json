@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "normalisasis",
+  "info": {
+    "singularName": "normalisasi",
+    "pluralName": "normalisasis",
+    "displayName": "Normalisasi"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "biologi": {
+      "type": "float"
+    },
+    "fisika": {
+      "type": "float"
+    },
+    "kimia": {
+      "type": "float"
+    },
+    "matematika": {
+      "type": "float"
+    },
+    "indonesia": {
+      "type": "float"
+    },
+    "inggris": {
+      "type": "float"
+    },
+    "bobot": {
+      "type": "float"
+    },
+    "hasilkali_prioritas": {
+      "type": "float"
+    },
+    "HK_PV": {
+      "type": "float"
+    }
+  }
+}

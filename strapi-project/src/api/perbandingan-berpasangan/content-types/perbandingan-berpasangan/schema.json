@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "perbandingan_berpasangans",
+  "info": {
+    "singularName": "perbandingan-berpasangan",
+    "pluralName": "perbandingan-berpasangans",
+    "displayName": "Perbandingan Berpasangan",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "biologi": {
+      "type": "float"
+    },
+    "fisika": {
+      "type": "float"
+    },
+    "kimia": {
+      "type": "float"
+    },
+    "matematika": {
+      "type": "float"
+    },
+    "indonesia": {
+      "type": "float"
+    },
+    "inggris": {
+      "type": "float"
+    },
+    "kriteria": {
+      "type": "string"
+    }
+  }
+}
