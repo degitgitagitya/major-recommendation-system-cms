@@ -4,7 +4,8 @@
   "info": {
     "singularName": "normalisasi",
     "pluralName": "normalisasis",
-    "displayName": "Normalisasi"
+    "displayName": "Normalisasi",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -37,6 +38,17 @@
     },
     "HK_PV": {
       "type": "float"
+    },
+    "prodi": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::prodi.prodi",
+      "inversedBy": "normalisasis"
+    },
+    "kriteria": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::kriteria.kriteria"
     }
   }
 }

@@ -40,7 +40,14 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::result.result",
-      "inversedBy": "nilai_siswa"
+      "mappedBy": "nilai_siswa"
+    },
+    "email": {
+      "type": "string"
+    },
+    "password": {
+      "type": "string",
+      "private": true
     }
   }
 }

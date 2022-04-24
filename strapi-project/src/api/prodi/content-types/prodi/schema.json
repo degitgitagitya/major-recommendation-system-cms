@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "prodis",
+  "info": {
+    "singularName": "prodi",
+    "pluralName": "prodis",
+    "displayName": "Prodi",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "perbandingan_berpasangans": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::perbandingan-berpasangan.perbandingan-berpasangan",
+      "mappedBy": "prodi"
+    },
+    "normalisasis": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::normalisasi.normalisasi",
+      "mappedBy": "prodi"
+    }
+  }
+}

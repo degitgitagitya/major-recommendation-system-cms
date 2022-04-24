@@ -30,8 +30,16 @@
     "inggris": {
       "type": "float"
     },
+    "prodi": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::prodi.prodi",
+      "inversedBy": "perbandingan_berpasangans"
+    },
     "kriteria": {
-      "type": "string"
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::kriteria.kriteria"
     }
   }
 }
