@@ -42,12 +42,11 @@
       "target": "api::result.result",
       "mappedBy": "nilai_siswa"
     },
-    "email": {
-      "type": "string"
-    },
-    "password": {
-      "type": "string",
-      "private": true
+    "users_permissions_user": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user",
+      "mappedBy": "nilai_siswa"
     }
   }
 }
