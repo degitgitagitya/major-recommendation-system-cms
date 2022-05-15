@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2022-05-15T06:28:41.472Z"
+    "x-generation-date": "2022-05-15T11:55:58.705Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -3070,6 +3070,9 @@
                                                           }
                                                         }
                                                       },
+                                                      "nis": {
+                                                        "type": "string"
+                                                      },
                                                       "createdAt": {
                                                         "type": "string",
                                                         "format": "date-time"
@@ -3190,6 +3193,9 @@
                                     }
                                   }
                                 }
+                              },
+                              "nis": {
+                                "type": "string"
                               },
                               "createdAt": {
                                 "type": "string",
@@ -4166,6 +4172,9 @@
                                                         }
                                                       }
                                                     },
+                                                    "nis": {
+                                                      "type": "string"
+                                                    },
                                                     "createdAt": {
                                                       "type": "string",
                                                       "format": "date-time"
@@ -4286,6 +4295,9 @@
                                   }
                                 }
                               }
+                            },
+                            "nis": {
+                              "type": "string"
                             },
                             "createdAt": {
                               "type": "string",
@@ -4556,6 +4568,9 @@
                           }
                         ],
                         "example": "string or id"
+                      },
+                      "nis": {
+                        "type": "string"
                       },
                       "createdAt": {
                         "type": "string",
@@ -5264,6 +5279,9 @@
                                                         }
                                                       }
                                                     },
+                                                    "nis": {
+                                                      "type": "string"
+                                                    },
                                                     "createdAt": {
                                                       "type": "string",
                                                       "format": "date-time"
@@ -5384,6 +5402,9 @@
                                   }
                                 }
                               }
+                            },
+                            "nis": {
+                              "type": "string"
                             },
                             "createdAt": {
                               "type": "string",
@@ -6269,6 +6290,9 @@
                                                         }
                                                       }
                                                     },
+                                                    "nis": {
+                                                      "type": "string"
+                                                    },
                                                     "createdAt": {
                                                       "type": "string",
                                                       "format": "date-time"
@@ -6389,6 +6413,9 @@
                                   }
                                 }
                               }
+                            },
+                            "nis": {
+                              "type": "string"
                             },
                             "createdAt": {
                               "type": "string",
@@ -6670,6 +6697,9 @@
                           }
                         ],
                         "example": "string or id"
+                      },
+                      "nis": {
+                        "type": "string"
                       },
                       "createdAt": {
                         "type": "string",
@@ -19886,6 +19916,9 @@
                                               }
                                             }
                                           },
+                                          "nis": {
+                                            "type": "string"
+                                          },
                                           "createdAt": {
                                             "type": "string",
                                             "format": "date-time"
@@ -20955,6 +20988,9 @@
                                             }
                                           }
                                         },
+                                        "nis": {
+                                          "type": "string"
+                                        },
                                         "createdAt": {
                                           "type": "string",
                                           "format": "date-time"
@@ -22005,6 +22041,9 @@
                                             }
                                           }
                                         },
+                                        "nis": {
+                                          "type": "string"
+                                        },
                                         "createdAt": {
                                           "type": "string",
                                           "format": "date-time"
@@ -22982,6 +23021,9 @@
                                               }
                                             }
                                           }
+                                        },
+                                        "nis": {
+                                          "type": "string"
                                         },
                                         "createdAt": {
                                           "type": "string",

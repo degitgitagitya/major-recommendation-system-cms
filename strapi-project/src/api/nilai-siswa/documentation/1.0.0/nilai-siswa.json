@@ -666,6 +666,9 @@
                                                           }
                                                         }
                                                       },
+                                                      "nis": {
+                                                        "type": "string"
+                                                      },
                                                       "createdAt": {
                                                         "type": "string",
                                                         "format": "date-time"
@@ -786,6 +789,9 @@
                                     }
                                   }
                                 }
+                              },
+                              "nis": {
+                                "type": "string"
                               },
                               "createdAt": {
                                 "type": "string",
@@ -1762,6 +1768,9 @@
                                                         }
                                                       }
                                                     },
+                                                    "nis": {
+                                                      "type": "string"
+                                                    },
                                                     "createdAt": {
                                                       "type": "string",
                                                       "format": "date-time"
@@ -1882,6 +1891,9 @@
                                   }
                                 }
                               }
+                            },
+                            "nis": {
+                              "type": "string"
                             },
                             "createdAt": {
                               "type": "string",
@@ -2152,6 +2164,9 @@
                           }
                         ],
                         "example": "string or id"
+                      },
+                      "nis": {
+                        "type": "string"
                       },
                       "createdAt": {
                         "type": "string",
@@ -2860,6 +2875,9 @@
                                                         }
                                                       }
                                                     },
+                                                    "nis": {
+                                                      "type": "string"
+                                                    },
                                                     "createdAt": {
                                                       "type": "string",
                                                       "format": "date-time"
@@ -2980,6 +2998,9 @@
                                   }
                                 }
                               }
+                            },
+                            "nis": {
+                              "type": "string"
                             },
                             "createdAt": {
                               "type": "string",
@@ -3865,6 +3886,9 @@
                                                         }
                                                       }
                                                     },
+                                                    "nis": {
+                                                      "type": "string"
+                                                    },
                                                     "createdAt": {
                                                       "type": "string",
                                                       "format": "date-time"
@@ -3985,6 +4009,9 @@
                                   }
                                 }
                               }
+                            },
+                            "nis": {
+                              "type": "string"
                             },
                             "createdAt": {
                               "type": "string",
@@ -4266,6 +4293,9 @@
                           }
                         ],
                         "example": "string or id"
+                      },
+                      "nis": {
+                        "type": "string"
                       },
                       "createdAt": {
                         "type": "string",

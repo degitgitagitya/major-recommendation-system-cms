@@ -47,6 +47,9 @@
       "relation": "oneToOne",
       "target": "plugin::users-permissions.user",
       "mappedBy": "nilai_siswa"
+    },
+    "nis": {
+      "type": "string"
     }
   }
 }
